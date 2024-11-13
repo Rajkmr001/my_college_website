@@ -1,0 +1,159 @@
+body{
+    background: red;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.toparea{
+    background:rgb(181,86,81);
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+.navbar-nav li a{
+    font: 14px arial;
+}
+.logoarea{
+    background: rgb(242,195,139);
+    padding: 40px;
+    text-align: center;
+}
+.logoarea img{
+    width: 100px;
+}
+.logoarea  h1{
+    color:#74353F;
+    text-shadow:  2px 2px 4px #000000;
+    text-shadow: 2px 8px 6px #0003, 0 -5px 16px #ffffff4d;
+
+}
+.logoarea h4{
+    color: black;
+}
+.menuarea{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    margin-left: 100px;
+}
+.menu ul li{
+    float: left;
+    padding: 10px 10px;
+}
+.menu  ul li a{
+    display: block;
+    text-decoration: none;
+    color: #7C7C7D;
+}
+.menu  ul li :hover{
+    color: #000;
+}
+.menu ul li:hover a {
+    color: #000; 
+}
+.menuarea .navbar {
+    position: relative; 
+    z-index: 10; 
+}
+
+.menuarea .dropdown-menu {
+    z-index: 20; 
+}
+.picarea{
+    width: auto;
+    height: auto;
+    background-color: #fff;
+
+}
+.principal{
+    width: 100%;
+    padding: 10PX;
+    background: #fff;
+}
+.coursearea{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('lib.c9fc1803c63d4552.webp');
+    padding: 100px 0;
+    text-align: center;
+    color: black;
+}
+.arrow{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100%;
+    margin: 10px;
+    padding: 10PX;
+    border: solid 1px black;
+    background: #fff;
+}
+.box img{
+    width: 100%;
+    transition: all 4s;
+    border-radius: 140px;
+}
+.box:hover img{
+    transform: rotate(360deg);
+}
+.link{
+    height: 60px;
+    width: 100%;
+    margin: 10px;
+    background: #fff;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.link a{
+    color: #B86127;
+    text-decoration: none;
+}
+.darea{
+    background-color: white;
+    height:300px;
+    text-align: center;
+    padding-top:10px;
+}
+.acheive{
+    width:270px;
+    height:250px;
+    background-color: white;
+    box-shadow:1px 1px 10px black;
+}
+.acheive img{
+    width:95%;
+    height:70%;
+    margin:5px;
+}
+
+.alumni{
+    padding: 50px 0 150px 0;
+    background: url('alumnibg.jpg') bottom center;
+    
+}
+.endarea{
+    background-color:#2F2F2F;
+}
+.endarea h4{
+    color:white;
+}
+.endarea ul li{
+    color:#D37F57;
+    list-style: none;
+}
+.endarea p,h6{
+    color: #F2C38B;
+}
+
